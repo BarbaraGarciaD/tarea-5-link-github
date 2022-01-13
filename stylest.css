@@ -1,0 +1,190 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header[id="header"]{
+    width: 100%;
+    height: 10vw;
+    background:#333;
+    color: #fff;
+    font-size: 2.3vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    padding-left: 1vw;
+    display: flex;
+    align-items:center;
+}
+h1{
+    display: flex;
+    align-items:center;
+}
+img[alt="NYSL_logo"]{
+    width: 8vw;
+    height: 8vw;
+    margin-right: 1vw;
+}
+.container{
+    width: 20vw;
+    position: fixed;
+    margin-top: 10vw;
+    padding: 0w;
+    box-sizing: border-box;
+    font-size: 2vw;
+    left: 0;
+    z-index: 100;
+}
+.menu{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 220vw;
+    background: rgba(51,51,51,0.9);
+}
+.menu a{
+    display: block;
+    color: #fff;
+    height: 5vw;
+    text-decoration: none;
+    padding-left: 2vw;
+    display: flex;
+    align-items:center;
+    border-bottom: 3px solid rgba(255,255,255,0.3);
+}
+.menu a:hover{
+    background: rgba(255,255,255,0.3)
+}
+#active{
+    background: rgb(175, 10, 10);;
+}
+img[alt="kind playing soccer"]{
+    width:80%;
+    margin-top: 10vw;
+    margin-left: 20vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+#topic{
+    width: 80%;
+    margin-top: -1vw;
+    margin-left: 20vw;
+    margin-right: 0vw;
+    padding-right: 0vw;
+    background-color: rgb(175, 10, 10);
+}
+h2{
+    font-size: 3vw; 
+    color:white; 
+    margin: 0vw;
+    padding: 1vw;
+    text-align: center;
+}
+h3{
+    font-size: 2vw; 
+    color:black; 
+}
+h4{
+    font-size: 2.5vw; 
+    color:black; 
+}
+div[id="schedule"]{
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+div[id="Mission"]{
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-top: 0vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: justify;
+}
+div[id="rulesandpolicies"]{
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: justify;
+}
+div[id="games-info"]{
+    width: 70vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: justify;
+}
+table, th,td {
+    font-size: 2vw;
+    width: 70vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+div[id="location"]{
+    width: 70vw;    
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#map{
+    width: 70vw;
+    height: 30vw;
+}
+div[id="form"]{
+    width: 70vw; 
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}  
+p{
+    text-align: justify;
+}
+input{
+    font-size: 2vw;
+    border: 0.1vw solid rgb(175, 10, 10);
+}
+select[type="option"]{
+    font-size: 2vw;
+    border: 0.1vw solid rgb(175, 10, 10);
+}
+input[id="parentsignature"]{
+    font-size: 2vw;
+    width: 76%;
+    border: 0.1vw solid rgb(175, 10, 10);
+}
+input[type="submit"]{
+    font-size: 2.2vw;
+    color: white;
+    width: 20%;
+    border: 0.2vw solid black;
+    background-color: rgb(175, 10, 10);
+}
+div[id="maps"]{
+    font-size: 2vw;
+    margin-top: 7vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+div[id="contact"]{
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-left: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
